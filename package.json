@@ -1,7 +1,7 @@
 {
   "name": "name",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/ts/index.tsx",
   "repository": "https://github.com/vernaze/ts-react-template.git",
   "author": "vernaze <vernalaze@gmail.com>",
   "license": "MIT",

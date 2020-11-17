@@ -35,16 +35,16 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    https: true,
+    // https: true,
     inline: true,
     contentBase: path.resolve(__dirname, 'dist'),
     watchContentBase: true,
     hot: true,
-    port: 8888
+    port: 9999
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: './templates/index.html',
       filename: 'index.html'
     })
   ],
